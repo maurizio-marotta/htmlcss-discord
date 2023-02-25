@@ -1,0 +1,321 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+header{
+  background-color: #255ee9;
+  padding: 0 10rem;
+  height: 50px;
+}
+
+.logo{
+  background-image: url(img/logo.svg);
+  float: left;
+  background-size: contain;
+  width: 17%;
+  background-repeat: no-repeat;
+  height: 40px;
+  margin: 5px 0;
+}
+
+nav{
+  float: left;
+  margin: auto;
+  width: 66%;
+  text-align: center;
+  margin-top: 2px;
+  line-height: 40px;
+}
+
+.accedi{
+  float: left;
+  text-align: center;   
+  width: 17%;
+  margin-top: 2px;
+  line-height: 40px;
+}
+
+.bottone{
+  background-color: white;
+  border-radius: 20px;
+  padding: 4px 10px;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  left: 40%;
+}
+
+.bottone-nero{
+  background-color: black;
+  border-radius: 20px;
+  padding: 4px 10px;
+  vertical-align: middle;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav a{
+  margin: 0 20px;
+  color: white;
+}
+
+.contenitore-intestazione{
+  background-image: url(img/jumbo.png);
+  width: 100%;
+  padding: 13rem 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testo-intestazione{
+  text-align: center;
+  position: relative;
+  width: 50%;
+  top: auto;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+.bottoni{
+  float: left;
+  position: relative;
+  top: 5%;
+  left: 50;
+  top: auto;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.p{
+  padding: 2rem auto;
+}
+
+.bottone-bianco{
+  background-color: white;
+  border-radius: 20px;
+  padding: 4px 10px;
+  vertical-align: middle;
+  color: black;
+}
+
+.immagine{
+  float: left;
+  background-size: contain;
+  width: 66%;
+  height: 350px;
+  background-repeat: no-repeat
+}
+
+.testo{
+  position: relative;
+  float: left;
+  width: 34%;
+  top: 145px;
+  left: 80px;
+  transform: translate(-45%, -45%);
+}
+
+.g{
+  background-color: #e6e6e6;
+  padding: 0 13rem;
+}
+
+.contenitore-contenuti{
+  padding: 3rem 13rem 3rem 20rem;
+}
+
+.contenitore-contenuti-grande{
+  padding: 3rem 13rem 6rem 13rem;
+}
+
+.testo-d{
+  position: relative;
+  float: right;
+  width: 34%;
+  top: 145px;
+  transform: translate(0%, -45%);
+}
+
+.immagine-d{
+  float: right;
+  background-size: contain;
+  width: 66%;
+  height: 350px;
+  background-repeat: no-repeat;
+  transform: translate(20%, 0);
+}
+
+.img1{
+  background-image: url(img/item1.svg);
+}
+
+.img2{
+  background-image: url(img/item2.svg);
+}
+
+.img3{
+  background-image: url(img/item3.svg);
+}
+
+.img4{
+  background-image: url(img/item4-big.svg);
+}
+
+.testo-f{
+  width: 100%;
+  text-align: center;
+}
+
+.immagine-f{
+  width: 43%;
+  height: 333px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  left: 30%;
+}
+
+h3{
+  text-align: center;
+  margin: 15px 0 30px 0;
+  padding-right: 1rem;
+} 
+
+.avventura{
+  position: relative;
+  float: left;
+  width: 50%;
+  left: 25%;
+  top: 0;
+  background-size: cover;
+}
+
+.bottone-blu{
+  background-color: #8ea1e1;
+  border-radius: 20px;
+  padding: 4px 10px;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+  margin: 0px 90px;
+}
+
+.down{
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow{
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 2px;
+}
+
+.img-footer{
+  background-image: url(img/ita.png);
+  height: 20px;
+  width: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.ita{
+  float: left;
+}
+
+.foot-col{
+  float: left;
+  width: 20%;
+}
+
+.titolo-footer{
+  float:left;
+  width: 20%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.contenitore-footer{
+  padding: 3rem 10rem;
+}
+
+footer{
+  background-color: #23272a;
+}
+
+li{
+  margin: 8px 0px;
+  color: white;
+}
+
+strong{
+  color: #7289da;
+}
+
+.titolo-footer h2{
+  color: #7289da;
+  margin: 0 15px;
+}
+
+.italiano{
+  color: white;
+  margin: 2rem 15px;
+}
+
+i{
+  color: white;
+}
+
+.img-fa-footer i{
+  margin: 0 15px;
+}
+
+.bottone-grigio{
+  background-color: #8ea1e1;
+  border-radius: 20px;
+  padding: 4px 10px;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+  float: right;
+  position: relative;
+  top: 25%;
+  right: 0;
+}
+
+.foot{
+  border-top: 1px solid #4a5882;
+  padding-top: 2rem;
+}
+
+html{
+  font-family: 'Catamaran', sans-serif;
+}
+
+.avventura .bottone-blu{
+  position: relative;
+  top: 0;
+  left: 12%;
+}
+
+header a{
+  font-weight: bolder;
+} 
